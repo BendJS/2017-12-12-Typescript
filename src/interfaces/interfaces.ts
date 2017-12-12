@@ -1,6 +1,6 @@
 // INTERFACES
 
-export interface IPerson {
+interface IPerson {
     firstName: string;
     lastName: string;
 }

@@ -6,11 +6,11 @@ let annotateBoolean: boolean = false;
 
 // Number
 let inferNumber = 5;
-let annotateNumber: boolean = false;
+let annotateNumber: number = 6;
 
 // String
-let inferString = true;
-let annotateString: boolean = false;
+let inferString = 'foo';
+let annotateString: string = 'bar';
 
 // Arrays
 let numberArray = [1,2,3,5];  // number[]

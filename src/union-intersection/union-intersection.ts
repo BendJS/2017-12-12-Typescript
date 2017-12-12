@@ -5,7 +5,7 @@ type nullableNumber = number | null;
 const isAge: nullableNumber = 5;
 const nullAge: nullableNumber = null;
 
-const couldBeThere: string | undefined = 'foo';
+const stringOrNumberOrBoolean: string | number | boolean = 'foo';
 
 // INTERSECTION TYPES
 type Cat = {
